@@ -8,6 +8,7 @@ TokenGenius is a versatile and secure Node.js and browser-compatible package for
 
 # Usage:
 
+```
 const generateRandomToken = require('tokengenius');
 
 // Generate a default hex token
@@ -21,13 +22,16 @@ console.log('Numeric Token:', numericToken);
 // Generate an alphabetic token with custom character set
 const customCharacterSetToken = generateRandomToken(12, 'alphabetic', 'ABC!@');
 console.log('Custom Character Set Token:', customCharacterSetToken);
+```
 
 # Options:
 
-length (optional): Desired length of the token in characters (default is 32).
-type (optional): Token type (numeric, alphabetic, hex). Default is hex.
-customCharacters (optional): Custom character set for token generation.
+`length` (optional): Desired length of the token in characters (default is 32).
+
+`type` (optional): Token type (`numeric`, `alphabetic`, `hex`). Default is hex.
+
+`customCharacters` (optional): Custom character set for token generation.
 
 # Compatibility:
-TokenGenius works seamlessly in both Node.js and browser environments. In browsers, it leverages the crypto.getRandomValues method for enhanced security.
+TokenGenius works seamlessly in both Node.js and browser environments. In browsers, it leverages the `crypto.getRandomValues` method for enhanced security.
 
