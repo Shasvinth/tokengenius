@@ -22,6 +22,10 @@ console.log('Numeric Token:', numericToken);
 // Generate an alphabetic token with custom character set
 const customCharacterSetToken = generateRandomToken(12, 'alphabetic', 'ABC!@');
 console.log('Custom Character Set Token:', customCharacterSetToken);
+
+// Generate a token with expiry time of 10 seconds
+const tokenWithExpiry = generateRandomToken(16, 'alphabetic', undefined, 10);
+console.log('Token with Expiry:', tokenWithExpiry);
 ```
 
 # Options:

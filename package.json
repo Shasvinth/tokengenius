@@ -1,6 +1,6 @@
 {
   "name": "@shasvinth/tokengenius",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "TokenGenius is a versatile and secure Node.js and browser-compatible package for generating random tokens. With customizable token lengths, various token types (numeric, alphabetic, hex), and the ability to define your own character set, TokenGenius empowers developers to create unique and tailored tokens for a wide range of applications.",
   "main": "index.js",
   "keywords": ["random", "token", "generator", "password", "secure"],
