@@ -2,7 +2,7 @@
 
 TokenGenius is a versatile and secure Node.js and browser-compatible package for generating random tokens. With customizable token lengths, various token types (numeric, alphabetic, hex), and the ability to define your own character set, TokenGenius empowers developers to create unique and tailored tokens for a wide range of applications.
 
-# Installatio
+# Installation
 
 `npm install tokengenius`
 
