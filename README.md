@@ -4,7 +4,7 @@ TokenGenius is a versatile and secure Node.js and browser-compatible package for
 
 # Installation
 
-`npm install tokengenius`
+`npm i @shasvinth/tokengenius`
 
 # Usage:
 
