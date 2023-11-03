@@ -9,7 +9,7 @@ TokenGenius is a versatile and secure Node.js and browser-compatible package for
 # Usage:
 
 ```
-const generateRandomToken = require('tokengenius');
+const generateRandomToken = require('@shasvinth/tokengenius');
 
 // Generate a default hex token
 const defaultToken = generateRandomToken();
